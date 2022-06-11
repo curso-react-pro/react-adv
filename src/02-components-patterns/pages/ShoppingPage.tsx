@@ -1,5 +1,4 @@
-import React from 'react'
-import { ProductButtons, ProductCard, ProductImage, ProductTitle } from '../components/ProductCard';
+import {ProductImage,ProductTitle,ProductButtons,ProductCard} from '../components';
 
 const product = {
   id: '1',
@@ -18,7 +17,7 @@ export const ShoppingPage = () => {
         flexWrap: 'wrap',
       }}>
         <ProductCard product={ product }>
-          <ProductCard.Image />
+          <ProductCard.Image/>
           <ProductCard.Title title='prueba'/>
           <ProductCard.Buttons/>
         </ProductCard>
