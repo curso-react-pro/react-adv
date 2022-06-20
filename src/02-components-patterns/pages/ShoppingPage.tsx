@@ -2,14 +2,10 @@ import "./../styles/custom-styles.css";
 import { ProductButtons, ProductCard, ProductImage } from "../components";
 import { ProductTitle } from "../components/ProductTitle";
 import { products } from "../data/products";
-import { useShoppingCart } from '../hooks/useShoppingCart';
-
-
-
+import { useShoppingCart } from "../hooks/useShoppingCart";
 
 export const ShoppingPage = () => {
-
-  const {shoppingCart, onProductCountChange} = useShoppingCart(); 
+  const { shoppingCart, onProductCountChange } = useShoppingCart();
 
   return (
     <div>
