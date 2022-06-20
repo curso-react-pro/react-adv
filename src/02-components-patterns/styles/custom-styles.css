@@ -1,9 +1,9 @@
 .bg-dark {
-  background-color: rgb(56, 56, 56);
+  background-color: #343a40 !important;
 }
 
 .text-white {
-  color: white;
+  color: white !important;
 }
 
 .text-bold {
@@ -11,11 +11,17 @@
 }
 .custom-image {
   padding: 10px;
-  width: calc(100% - 20px);
+  width: calc(100% - 20px) !important;
   border-radius: 20px;
 }
 
 .custom-buttons button, .custom-buttons div{
     color: white;
     border-color: white;
+}
+
+.Shopping-card {
+  position: fixed;
+  right: 10px;
+  top: 0px;
 }
