@@ -3,7 +3,7 @@ import { ProductContext } from "./ProductCard";
 import styles from "./../styles/styles.module.css";
 
 export interface productTitleProps {
-  title: string;
+  title?: string;
   className?: string;
   style?: React.CSSProperties;
 }
