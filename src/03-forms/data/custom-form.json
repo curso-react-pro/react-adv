@@ -1,0 +1,57 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "First Name",
+    "label": "First Name",
+    "value": "",
+    "validation": [
+      {
+        "type": "required",
+        "message": "First Name is required"
+      },
+      {
+        "type": "minLength",
+        "value": 5,
+        "message": "First Name must be at least 5 characters"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Last Name",
+    "label": "Last Name",
+    "value": "",
+    "validation": [
+      {
+        "type": "required",
+        "message": "Last Name is required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "Email",
+    "label": "Email",
+    "value": "",
+    "validation": [
+      {
+        "type": "required",
+        "message": "Email is required"
+      },
+      {
+        "type": "email",
+        "message": "Email is invalid"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteColor",
+    "label": "Favorite Color",
+    "value": "",
+    "options": { "1": "red", "2": "blue" }
+  }
+]
